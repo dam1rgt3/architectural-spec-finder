@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Architectural Spec Finder</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/style.css">
+</head><body><div class="shell"><aside class="sidebar">
+<div class="brand"><span class="brandmark" aria-hidden="true">▤</span><span>Spec Finder</span></div>
+<nav aria-label="Workspace"><button id="nav-search" aria-current="page">Specification search</button><button id="nav-library">Source library</button></nav>
+<div class="sidefoot"><i></i> Local workspace</div></aside>
+<main><header><span>Document workspace</span><span class="slash">/</span><strong id="crumb">Specification search</strong></header>
+<section class="content"><div class="heading"><p class="eyebrow" id="edition">Architectural systems</p><h1 id="title">Specification search</h1>
+<p id="intro">Look up a product, compare glazing options, or trace a value to its source.</p></div>
+<form id="form" role="search"><label class="only" for="query">Search documents</label><span aria-hidden="true" class="glass"></span><input id="query" maxlength="400" autocomplete="off" placeholder="Ask about a model, assembly or performance value"><button class="primary" id="submit">Search</button></form>
+<div id="scope"></div><section id="shortcuts" aria-label="Example searches"></section>
+<div id="status" role="status" aria-live="polite"></div><div id="output"></div><section id="detail" aria-label="Source detail"></section>
+</section></main></div><script src="/app.js" defer></script></body></html>
